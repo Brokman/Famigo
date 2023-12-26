@@ -7,7 +7,7 @@ import {user} from "$lib/store"
 <div class="flex justify-center">
     <h1 class="h1">Home <strong>{$user}</strong></h1>
 </div>
-<div class="container flex p-8">
+<div class="flex p-8">
     <div class="card p-4">
         <a href="/welcome/family" class="btn variant-filled">
             <span><MdiAccountPlusOutline /></span>
