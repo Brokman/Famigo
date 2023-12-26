@@ -27,9 +27,9 @@
   const handleOnClick = () => {
     toastStore.clear();
 
-    if (userInput.length > 3) {
+    if (userInput.length >= 3) {
       user.set(userInput);
-      goto("/welcome");
+      goto("/welcome/home");
     } else {
       toastStore.trigger(t);
       debounce()
